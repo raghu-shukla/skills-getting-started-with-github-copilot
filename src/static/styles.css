@@ -142,3 +142,37 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants {
+  margin-top: 12px;
+}
+
+.participants strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #1a237e;
+  font-size: 0.95rem;
+}
+
+.participants-list {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.participants-list li {
+  margin: 6px 0;
+  padding: 6px 10px;
+  background: linear-gradient(90deg, #f0f4ff, #ffffff);
+  border-radius: 999px;
+  display: inline-block;
+  color: #1a237e;
+  font-weight: 600;
+  list-style-position: inside;
+}
+
+.participants .muted {
+  color: #666;
+  font-style: italic;
+  padding: 4px 0;
+}
